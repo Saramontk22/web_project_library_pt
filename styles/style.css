@@ -357,12 +357,12 @@
   align-items: flex-start;
 }
 
-.footer__column_content_hours {
+.footer__column footer__column--content_hours {
   margin-left: auto;
   margin-right: 80px;
 }
 
-.footer__column_content_social {
+.footer__column footer__column--content_social {
   font-weight: 20px;
   font-size: 16px;
   color: #ffffff;
