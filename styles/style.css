@@ -331,8 +331,6 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  display: flex;
-  align-items: center;
 }
 
 .step__icon {
@@ -347,6 +345,7 @@
 
 .footer {
   box-sizing: border-box;
+  color: #ffffff;
   background-color: #1f1f1f;
   padding: 60px 80px;
 }
@@ -357,12 +356,12 @@
   align-items: flex-start;
 }
 
-.footer__column .footer__column_content_hours {
+.footer__column_content_hours {
   margin-left: auto;
   margin-right: 80px;
 }
 
-.footer__column .footer__column_content_social {
+.footer__column_content_social {
   font-weight: 20px;
   font-size: 16px;
   color: #ffffff;
@@ -381,6 +380,7 @@
   line-height: 20px;
   font-size: 16px;
   color: #f2f2f2;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -397,6 +397,9 @@
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
   font-weight: 20px;
   font-size: 16px;
   color: white;
